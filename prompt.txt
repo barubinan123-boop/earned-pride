@@ -1,0 +1,20 @@
+Kamu adalah BUILDER (build-only) untuk bounty make.fun. Baca file ini sampai habis dulu: ~/workspace/custom-skills/make_fun_bounty_submission/SKILL.md dan ~/workspace/makefun-bounty/earned-pride/u-mang-one-line-of-earned-pride-a0138557-kit/RULES.txt. Baca juga requirements JSON di ~/workspace/makefun-bounty/reqs/u-mang-one-line-of-earned-pride-a0138557.json (terutama readme_template dan repo_about).
+
+BOUNTY: "One Line of Earned Pride", slug u-mang-one-line-of-earned-pride-a0138557, hadiah $5 (10 tempat: 1st $1, 2nd $0.80, 3rd $0.60, 4th $0.50, 5th $0.45, 6th $0.40, 7th $0.35, 8th-10th $0.30), gratis, tutup 2026-11-27T04:15:00Z, hasil 2026-12-19T08:15:00Z. Tugas: program menulis SATU baris teks (1-240 karakter) ke /output/entry.txt — momen kebanggaan yang tenang dan pantas didapat (earned pride) untuk seseorang dalam sebuah adegan: orang kecil melakukan hal sulit, atau usaha panjang akhirnya berhasil. Juri membandingkan dua baris sekaligus dan menilai: (1) kebanggaan yang tulus dan pantas, (2) adegan konkret dengan orang nyata, terlihat terjadi bukan diringkas, (3) kebanggaan terasa dari usaha/kesulitan di dalam baris itu, bukan ditegaskan/dijelaskan, (4) langsung terasa dalam satu kali baca, (5) segar — bukan trofi, podium, atau wisuda yang klise. Buatlah SATU baris terbaik yang memenuhi semua itu (bahasa Inggris, karena juri dan bounty berbahasa Inggris).
+
+TUGASMU (build-only, JANGAN bundle/check/submit):
+1. Buat repo GitHub publik baru barubinan123-boop/earned-pride (cek dulu apakah sudah ada; kalau ada pakai nama earned-pride-line). Repo HARUS dibuat SETELAH kompetisi dibuka (dibuka 2026-11-24T04:15:54Z — sekarang sudah lewat, aman).
+2. Tulis file DI SESI INI dengan minimal 2 pesan write/edit: main.ts (Node 22) di root repo yang menulis baris entry ke /output/entry.txt, README.md, dan LICENSE (MIT + baris SPDX-License-Identifier: MIT).
+3. JANGAN salin starter kit. JANGAN baca implementasi lama (ini build baru dari RULES saja).
+4. README wajib memuat 3 badge live persis dari readme_template di requirements JSON (badge make.fun, rank, reward — ganti {owner} dengan barubinan123-boop dan {repo} dengan nama repo), plus deskripsi dan cara menjalankan. Referral code Husni: s0awek38 (untuk link "Entered on make.fun" di template).
+5. Verifikasi lokal sesuai RULES: jalankan program dan pastikan /output/entry.txt berisi tepat satu baris 1-240 karakter, UTF-8, bukan hanya spasi.
+6. Simpan brief ini kata-per-kata ke ~/workspace/makefun-bounty/earned-pride/prompt.txt.
+7. Set repo About: homepage https://make.fun/bounty/u-mang-one-line-of-earned-pride-a0138557, deskripsi "{ringkasan} Built by an AI agent for make.fun's “One Line of Earned Pride” bounty, $5 in USDC.", topics: makefun, ai-agents, bounties, growth (gunakan gh CLI).
+8. Push ke GitHub dan laporkan kembali: URL repo + SHA commit lengkap (40 karakter).
+
+ATURAN KERAS:
+- Akun make.fun @hsnmbrk07 SUDAH terhubung, JANGAN makefun login.
+- GitHub barubinan123-boop, gh CLI sudah login.
+- JANGAN PERNAH print/cat/log API key (~/.makefun/credentials) atau keypair (~/workspace/makefun-bounty/makefun-keypair.json) — jangan buka file-file itu sama sekali.
+- JANGAN bundle, JANGAN check, JANGAN submit — itu tugas agen utama setelah kamu selesai.
+- Kerja di folder ~/workspace/makefun-bounty/earned-pride/ (kit ada di subfolder u-mang-one-line-of-earned-pride-a0138557-kit/).
